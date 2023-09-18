@@ -4,7 +4,7 @@ import ServiceList from './src/screens/ServiceList';
 export default function App() {
   return (
       <SafeAreaView>
-        <StatusBar backgroundColor='red' />
+        <StatusBar backgroundColor='#fff' barStyle={'dark-content'} />
         <ServiceList />
       </SafeAreaView>
   );
